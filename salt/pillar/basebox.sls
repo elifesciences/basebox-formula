@@ -6,4 +6,4 @@ elife:
         services:
             tester:
                 service_template: tester-template
-                num_processes: 0
+                num_processes: 2
