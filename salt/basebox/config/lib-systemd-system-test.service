@@ -9,4 +9,4 @@ WantedBy={{ process }}-controller.target
 
 [Service]
 RestartSec=10
-ExecStart=/usr/bin/python3 /opt/{{ process }}.py $I
+ExecStart=/usr/bin/python3 /opt/{{ process }}.py %i
